@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorRed"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:ignore="MissingConstraints" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/blocknot"
+        android:layout_marginTop="50dp"
+        android:padding="0px">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Привет Рахимджон!"
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints,RtlSymmetry" />
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="45px"
+            android:stretchColumns="0,1,2">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp">
+
+                <ProgressBar
+                    android:id="@+id/vertical_progressbar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="30dp"
+                    android:progressDrawable="@drawable/verticalprogressbar" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/value123"
+                        android:layout_width="38dp"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAlignment="textEnd"
+                        android:textColor="#0685FF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/value123"
+                        android:text="%"
+                        android:textColor="#0685FF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="167dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/logo_with_star"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:contentDescription="@string/todo"
+
+                     />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_below="@+id/table"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Сегодня: 4 мая, вторник"
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="15sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="295dp"
+            android:layout_height="22dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Давай вместе соберём меня"
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView android:id="@+id/ScrollView01"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/textView4"
+            android:layout_height="200dp">
+            <TableLayout
+            android:id="@+id/table2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="45px"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="60dp"
+            android:stretchColumns="0,1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp">
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"></LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">iBag</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title">Привет, давай познокомимься!</string>
+    <string name="level">Класс</string>
+    <string name="meet">Знакомиться</string>
+    <string name="weights">Вес (кг)</string>
+    <string name="surname">Фамилия</string>
+    <string name="firstname">Имя</string>
+    <string name="fill_field">заполни следующие поля</string>
+    <string name="todo">TODO</string>
+</resources>

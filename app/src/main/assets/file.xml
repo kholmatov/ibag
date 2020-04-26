@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<records>
+    <first>
+        <book_1>
+            <id>0</id>
+            <name>Математика</name>
+            <weight>308</weight>
+            <type>гр</type>
+            <file>matematika_1.pdf</file>
+        </book_1>
+        <book_1>
+            <id>1</id>
+            <name>Природоведение</name>
+            <weight>290</weight>
+            <type>гр</type>
+            <file>sanat_mehnat_1.pdf</file>
+        </book_1>
+        <book_1>
+            <id>2</id>
+            <name>Рисования</name>
+            <weight>140</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_1>
+        <book_1>
+            <id>3</id>
+            <name>Родная речь</name>
+            <weight>382</weight>
+            <type>гр</type>
+            <file>zaboni_modari_1.pdf</file>
+        </book_1>
+
+        <book_1>
+            <id>4</id>
+            <name>Русский язык</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>russkaya_rech_1.pdf</file>
+        </book_1>
+    </first>
+
+    <second>
+        <book_2>
+            <id>0</id>
+            <name>Математика</name>
+            <weight>308</weight>
+            <type>гр</type>
+            <file>matematika_2.pdf</file>
+        </book_2>
+        <book_2>
+            <id>1</id>
+            <name>Природоведение</name>
+            <weight>290</weight>
+            <type>гр</type>
+            <file>sanat_mehnat_2.pdf</file>
+        </book_2>
+        <book_2>
+            <id>2</id>
+            <name>Рисования</name>
+            <weight>140</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_2>
+        <book_2>
+            <id>3</id>
+            <name>Родная речь</name>
+            <weight>382</weight>
+            <type>гр</type>
+            <file>zaboni_modari_2.pdf</file>
+        </book_2>
+
+        <book_2>
+            <id>4</id>
+            <name>Русский язык</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>russkaya_rech_2.pdf</file>
+        </book_2>
+    </second>
+
+    <third>
+        <book_3>
+            <id>0</id>
+            <name>Математика</name>
+            <weight>308</weight>
+            <type>гр</type>
+            <file>matematika_3.pdf</file>
+        </book_3>
+        <book_3>
+            <id>1</id>
+            <name>Природоведение</name>
+            <weight>290</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_3>
+        <book_3>
+            <id>2</id>
+            <name>Труд и рисования</name>
+            <weight>140</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_3>
+        <book_3>
+            <id>3</id>
+            <name>Родная речь</name>
+            <weight>382</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_3>
+
+        <book_3>
+            <id>4</id>
+            <name>Русский язык</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_3>
+        <book_3>
+            <id>5</id>
+            <name>Музыка</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>surud_musiki_3.pdf</file>
+        </book_3>
+        <book_3>
+            <id>6</id>
+            <name>English</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>english_3.pdf</file>
+        </book_3>
+    </third>
+
+    <four>
+        <book_4>
+            <id>0</id>
+            <name>Математика</name>
+            <weight>308</weight>
+            <type>гр</type>
+            <file>matematika_4.pdf</file>
+        </book_4>
+        <book_4>
+            <id>1</id>
+            <name>Природоведение</name>
+            <weight>290</weight>
+            <type>гр</type>
+            <file>tabiatshinosi_4.pdf</file>
+        </book_4>
+        <book_4>
+            <id>2</id>
+            <name>Труд и рисования</name>
+            <weight>140</weight>
+            <type>гр</type>
+            <file>sanat_mehnat_4.pdf</file>
+        </book_4>
+
+        <book_4>
+            <id>4</id>
+            <name>Русский язык</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_4>
+        <book_4>
+            <id>5</id>
+            <name>Музыка</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>none.pdf</file>
+        </book_4>
+        <book_4>
+            <id>6</id>
+            <name>Родная речь</name>
+            <weight>130</weight>
+            <type>гр</type>
+            <file>zaboni_modari_4.pdf</file>
+        </book_4>
+    </four>
+
+
+</records>

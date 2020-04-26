@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/blocknot"
+        android:layout_marginTop="50dp"
+        android:id="@+id/rel"
+        android:padding="0px"
+        >
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:text="Изменение своего профиля"
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="30dp"
+            android:layout_marginTop="65dp"
+            tools:ignore="MissingConstraints,RtlSymmetry" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="167dp"
+            android:layout_height="166dp"
+            android:layout_below="@+id/textView2"
+            android:src="@drawable/logo_with_star"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="295dp"
+            android:layout_height="22dp"
+            android:layout_below="@+id/image"
+            android:text="изменить следующие поля"
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            tools:ignore="MissingConstraints"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_below="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/box"
+            android:layout_marginTop="10dp"
+            android:hint="@string/firstname"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_below="@+id/firstname"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/box"
+            android:layout_marginTop="10dp"
+            android:hint="@string/surname"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/level"
+            android:layout_below="@+id/surname"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/box"
+            android:layout_marginTop="10dp"
+            android:hint="@string/level"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/weights"
+            android:layout_below="@+id/level"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/box"
+            android:layout_marginTop="10dp"
+            android:hint="@string/weights"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/meet"
+            android:textColor="#fff"
+            android:shadowColor="@color/black_overlay"
+            android:textStyle="bold"
+            android:layout_below="@+id/weights"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="Изменить" />
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
